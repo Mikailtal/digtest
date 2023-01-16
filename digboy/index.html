@@ -1,0 +1,47 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Untitled Document</title>
+<style>
+.container {
+display:flex;
+flex-direction:row;
+overflow: hidden;
+
+min-height: 100vh;
+position: relative;
+
+}
+.white{
+  position: absolute;
+width: 50%;
+}
+.black{
+
+  width: 50%;
+  left:50%;
+}
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+
+.img {
+display:flex;
+flex-direction:column;
+} }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="white">
+    <img src="images/whitebg.png" width="100%" height="100%">
+
+  </div>
+  <div class="black">
+    <img src="images/blackbg.png" width="100%" height="100%">
+  </div>
+
+</div>
+</body>
+</html>

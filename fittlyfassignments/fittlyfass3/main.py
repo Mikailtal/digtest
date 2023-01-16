@@ -1,0 +1,5 @@
+t_1 = (1, 4, 9, 16, 25, 36)
+t_2=tuple((i*i for i in t_1 ))
+print("t_1",t_2)
+print("Element at index postiion 4 of t_modified",t_2[4])
+print("t_sliced",t_2[1:4])
